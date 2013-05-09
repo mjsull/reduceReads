@@ -18,7 +18,7 @@ count = 0
 for line in infile:
     count += 1
     if count % z == 1:
-        if random.random <= getrate:
+        if random.random() <= getrate:
             getit = True
             outfile.write(line)
         else:

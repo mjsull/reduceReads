@@ -1,0 +1,16 @@
+reduceReads.py   Written by: Mitchell Sullivan   mjsull@gmail.com
+Supervisor: Dr. Scott Beatson and Dr. Nico Petty University of Queensland
+Version 0.6 08.05.2013
+License: GPLv3
+
+
+PURPOSE: reduces the amount of reads in a readfile at random
+USAGE: python reduceReads.py inFile outFile ratio inputflag
+Where infile is the read file
+outfile is the new read file
+ratio is the ratio of reads to include in the new read file (i.e. 0.5 reduces the number of reads by half)
+and inputflag is the file format of the read file where the options are
+fa - fasta file
+fq - fastq file
+faz - gzipped fasta file
+fqz - gzipped fastq file
